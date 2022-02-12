@@ -1,5 +1,9 @@
 /* style.css */
 
+body {
+    margin: 0;
+}
+
 text {
     font-family: 'Roboto', sans-serif;
 }
