@@ -18,13 +18,13 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    gap: 16px;
+    gap: 24px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    padding: 0 12em;
+    padding: 0 28em;
 }
 
 .header {
@@ -42,19 +42,21 @@ ul {
 
 .hero-content {
     display: flex;
-    margin-top: 8em;
+    margin-top: 7em;
     margin-bottom: 8em;
-    justify-content: space-between;
+    gap: 48px;
+    justify-content: center;
     align-items: center;
 }
 
 .hero-left {
     height: 250px;
-    width: 500px;
+    width: 450px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
+    align-content: stretch;
     gap: 8px;
 }
 
@@ -87,6 +89,41 @@ ul {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin-top: 1em;
+}
+
+.cards {
+    margin-top: 3em;
+    margin-bottom: 7em;
+    width: 960px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 160px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 6px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #485F6E;
+}
+
+.card-img {
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border: #3882F6 solid 4px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
 }
 
 .quote {
@@ -103,14 +140,14 @@ ul {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    width: 820px;
+    width: 790px;
     align-self: center;
 }
 
 .quote-credit {
     font-size: 24px;
     font-weight: 700;
-    width: 675px;
+    width: 700px;
     align-self: flex-end;
 }
 
@@ -167,6 +204,7 @@ button.sign-up {
 }
 
 .footer {
+    color: #F9FAF8;
     display: flex;
     padding: 2em 0;
     justify-content: center;
